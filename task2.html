@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-1</title>
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    background-color: peachpuff;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item-6 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.item-8 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-9 {
+    grid-column-start: 4;
+    grid-column-end: -1;
+}
+</style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item-1">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item item-6">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item item-8">8</div>
+        <div class="grid-item item-9">9</div>
+    </div>
+</body>
+</html>

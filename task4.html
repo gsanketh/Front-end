@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    .container {
+        border: 1px solid black;
+        text-align: center;
+    }
+    .block-1 {
+        text-align: left;
+        padding: 20px;
+        background-color: blue;
+    }
+    .block-2 {
+        text-align: right;
+        padding: 20px;
+        background-color: blue;
+    }
+    .block-3 {
+        padding: 20px;
+    }
+    .block-4 {
+        padding: 20px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .block-5 {
+        padding: 20px;
+    }
+    .name {
+        text-align: right;
+    }
+    button {
+        color: white;
+        background-color: brown;
+    }
+    .i1,
+    .i2,
+    .i3 {
+        border-radius: 50%;
+    }
+    .D1 {
+        border-bottom: 1px solid black;
+        background-color: blue;
+    }
+    .D2 {
+        border-bottom: 1px solid black;
+    }
+    .D3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+    }
+    .D4 {
+        border-bottom: 1px solid black;
+    }
+    .para {
+        text-align: justify;
+        padding: 20px;
+    }
+    .html {
+        text-align: left;
+    }
+    .html2 {
+        color: white;
+    }
+    .htmllinks {
+        text-align: left;
+    }
+    .htmllinks-2 {
+        text-align: left;
+    }
+    .css {
+        text-align: left;
+    }
+    .csslinks {
+        text-align: left;
+    }
+    a {
+        color: black;
+    }
+    a:hover {
+        color: orange;
+    }
+    * {
+        background-color: gray;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row D1">
+            <div class="col-sm-6 block-1">
+                <img class="image" src="mini.jpg">
+            </div>
+            <div class="col-sm-6 block-2">
+             <button><h1>Minion</h1></button>
+            </div>
+        </div>
+        <div class="row D2">
+            <div class="col-sm-4 block-3">
+                <div>
+                    <img class="i1" src="mini.jpg">
+                </div>
+                <div class="h1">
+                    <h2><u>Minion-1</u></h2>
+                </div>
+                <div class="p1">
+                    <p>This is a minion image downloaded from google</p>
+                </div>
+            </div>
+            <div class="col-sm-4 block-4">
+                <div>
+                    <img class="i2" src="mini.jpg">
+                </div>
+                <div class="h2">
+                    <h2><u>Minion-2</u></h2>
+                </div>
+                <div class="p2">
+                    <p>This is a minion image downloaded from google</p>
+                </div>
+            </div>
+            <div class="col-sm-4 block-5">
+                <div>
+                    <img class="i3" src="mini.jpg">
+                </div>
+                <div class="h3">
+                    <h2><u>Minion-3</u></h2>
+                </div>
+                <div class="p3">
+                    <p>This is a minion image downloaded from google</p>
+                </div>
+            </div>
+        </div>
+        <div class="row D3">
+            <div  class="col-sm-12">
+                <div class="videotitle">
+                    <h2><u>Video</u></h2>
+                </div>
+                <div class="video">
+                    <video controls autoplay poster="mini.jpg" width="25%"></video>
+                </div>
+            </div>
+        </div>
+        <div class="row D4">
+            <div class="col-sm-12">
+                <div class="about">
+                    <h2><u>About</u></h2>
+                </div>
+                <div class="para">
+                    <p>The three journey in 1968 to New York City and go into a department
+                       store for the night; they stumble upon a hidden commercial broadcast
+                       advertising Villain-Con, an Orlando convention for all villains. The
+                       next day they hitchhike a ride with the Nelsons, a family of thieves.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="html">
+                    <h2><u>HTML links</u></h2>
+                </div>
+                <div class="htmllinks">
+                    <ul>
+                        <li><a href="https://www.w3schools.com/html/html_intro.asp">What is HTML</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_elements.asp">Elements</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_attributes.asp">Attributes</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_styles.asp">Styles</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_quotation_elements.asp">Quotations</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_colors.asp">Colors</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="html2">
+                    <h2 class="html2">.</h2>
+                </div>
+                <div class="htmllinks-2">
+                    <ul>
+                        <li><a href="https://www.w3schools.com/html/html_links.asp">Links</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_images.asp">Images</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_blocks.asp">Block and Inline</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_classes.asp">Classes</a></li>
+                        <li><a href="https://www.w3schools.com/html/html5_video.asp">Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 grid-item item-5">
+                <div class="css">
+                    <h2><u>CSS links</u></h2>
+                </div>
+                <div class="csslinks">
+                    <ul>
+                        <li><a href="https://www.w3schools.com/css/css_intro.asp">What is CSS</a></li>
+                        <li><a href="https://www.w3schools.com/css/css_syntax.asp">Syntax</a></li>
+                        <li><a href="https://www.w3schools.com/css/css_selectors.asp">Selectors</a></li>
+                        <li><a href="https://www.w3schools.com/css/css_background.asp">Background</a></li>
+                        <li><a href="https://www.w3schools.com/css/css_margin.asp">Margins</a></li>
+                        <li><a href="https://www.w3schools.com/css/css_padding.asp">Padding</a></li>            
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
